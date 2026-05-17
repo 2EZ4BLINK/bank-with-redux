@@ -9,7 +9,6 @@ function formatCurrency(value) {
 
 const BalanceDisplay = () => {
   const userAccount = useGetAccount();
-
   return <div className="balance">{formatCurrency(userAccount.balance)}</div>;
 };
 
