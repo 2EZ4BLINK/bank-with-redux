@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { createCustomer } from "./redux/customerActionCreators";
+import { createCustomer } from "./redux/customerSlice";
 
 const CreateCustomer = () => {
   const dispatch = useDispatch();

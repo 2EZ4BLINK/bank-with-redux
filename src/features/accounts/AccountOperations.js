@@ -1,12 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import {
-  deposit,
-  payLoan,
-  requestLoan,
-  withdraw,
-} from "./redux/accountActionCreators";
 import { useGetAccount } from "./redux/accountSelectors";
+import { deposit, payLoan, requestLoan, withdraw } from "./redux/accountSlice";
 
 const AccountOperations = () => {
   const dispatch = useDispatch();
